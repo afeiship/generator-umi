@@ -33,6 +33,8 @@
     "npm": ">= 4.0.0"
   },
   "dependencies": {
+    "@feizheng/next-camelize": "^1.0.2",
+    "@feizheng/next-classify": "^1.0.0",
     "@feizheng/yeoman-generator-helper": "^1.0.6",
     "chalk": "^2.1.0",
     "figlet": "^1.3.0",
