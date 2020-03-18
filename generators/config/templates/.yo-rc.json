@@ -3,7 +3,8 @@
     "prefix": "<%= prefix %>",
     "dirs": {
       "pages": "src/pages",
-      "views": "src/components/views"
+      "views": "src/components/views",
+      "modals": "src/components/modals"
     }
   }
 }
