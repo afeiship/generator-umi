@@ -13,4 +13,5 @@ npm install && npm link
 yo umi:config
 yo umi:page
 yo umi:view
+yo umi:modal
 ```
