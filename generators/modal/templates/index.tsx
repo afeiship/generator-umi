@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style.less';
-import cx from 'classNames';
+import cx from 'classnames';
 import { Modal } from 'antd';
 
 export default () => {
