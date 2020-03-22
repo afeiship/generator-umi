@@ -1,5 +1,5 @@
 {
-  "generator-umi": {
+  "@feizheng/generator-umi": {
     "prefix": "<%= prefix %>",
     "dirs": {
       "pages": "src/pages",

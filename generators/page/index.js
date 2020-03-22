@@ -38,10 +38,11 @@ module.exports = class extends Generator {
 
   writing() {
     const pages = nx.get(this._config, 'dirs.pages');
+    const data = nx.mix(null, this.props, this._config);
     this.fs.copyTpl(
       this.templatePath('*.*'),
       this.destinationPath(`${pages}/${this.props.name}`),
-      this.props
+      data
     );
   }
 };
