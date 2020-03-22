@@ -1,6 +1,6 @@
 {
-  "name": "generator-umi",
-  "version": "0.0.0",
+  "name": "@feizheng/generator-umi",
+  "version": "1.0.0",
   "description": "Yeom generator for umi.",
   "homepage": "https://github.com/afeiship/generator-umi",
   "author": {
