@@ -42,7 +42,7 @@ module.exports = class extends Generator {
   writing() {
     const pages = nx.get(this._config, 'dirs.views');
     const prefix = nx.get(this._config, 'prefix');
-    const componentName = nx.classify(prefix + this.props.name);
+    const componentName = prefix + this.props.name;
     const data = nx.mix(null, this._config, this.props);
     this.fs.copyTpl(
       this.templatePath('*.*'),
