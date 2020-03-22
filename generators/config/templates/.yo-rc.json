@@ -4,6 +4,7 @@
     "dirs": {
       "pages": "src/pages",
       "views": "src/components/views",
+      "models": "src/models",
       "modals": "src/components/modals"
     }
   }
